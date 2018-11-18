@@ -1,0 +1,6 @@
+ul {
+  background-image: url('../images/IMG_0024.JPG');
+}
+ul > li {
+  line-height: 50px;
+}

@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --hot --port 3000 --open --contentBase ./src",
+    "dev": "webpack-dev-server --hot --port 8899 --open --contentBase ./src",
     "dev2": "webpack-dev-server",
     "dev3": "webpack-dev-server --hot"
   },
@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "vue": "^2.5.17"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

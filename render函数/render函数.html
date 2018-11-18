@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../../node_modules/vue/dist/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+<login></login>
+</div>
+
+<script>
+    let login = {
+        template:'<h1>这是登陆模块</h1>'
+    }
+    let vm = new Vue({
+        el:'#app',
+        data:{},
+        methods:{},
+        render:c =>  c(login)
+    })
+</script>
+</body>
+</html>
